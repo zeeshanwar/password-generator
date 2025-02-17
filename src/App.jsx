@@ -1,10 +1,8 @@
-import { useState, useCallback, useEffect, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState, useCallback, useEffect, useRef } from 'react''
 import './App.css'
 import './index.css'
 
-function App() {
+export default function App() {
 
   const [length, setLength] = useState(10);
   const [numsCheck, setNumCheck] = useState(false);
@@ -95,5 +93,3 @@ function App() {
     </>
   )
 }
-
-export default App
